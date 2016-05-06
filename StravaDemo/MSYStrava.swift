@@ -9,8 +9,8 @@
 import UIKit
 
 
-let stravaClientId="9918"
-let stavaClientSecret="5ce1f6a39b562a9127c2cdff481f4e1c139eaa9f"
+let stravaClientId=""
+let stavaClientSecret=""
 let stavaAuthoriseUrl="https://www.strava.com/oauth/authorize"
 let stavaAccessToken="https://www.strava.com/oauth/token"
 let stavaDeauthoriseUrl="https://www.strava.com/oauth/deauthorize"
