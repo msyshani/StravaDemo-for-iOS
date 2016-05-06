@@ -81,7 +81,7 @@ class MSYStrava: NSObject {
         
         
         //header=["Authorization":"Bearer " + token]
-        oauthswift.client.request("https://www.strava.com/api/v3/activities/13233267", method: .GET, parameters: [:], headers: header, success: { (data, response) -> Void in
+        oauthswift.client.request("https://www.strava.com/api/v3/activities/your_user_ID", method: .GET, parameters: [:], headers: header, success: { (data, response) -> Void in
             let jsonDict: AnyObject! = try? NSJSONSerialization.JSONObjectWithData(data, options: [])
             print(jsonDict)
             
