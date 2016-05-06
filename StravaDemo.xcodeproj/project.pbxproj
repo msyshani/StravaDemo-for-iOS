@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC38D6141CD3705B00CFDA70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D6131CD3705B00CFDA70 /* AppDelegate.swift */; };
+		AC38D6161CD3705B00CFDA70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D6151CD3705B00CFDA70 /* ViewController.swift */; };
+		AC38D6191CD3705B00CFDA70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC38D6171CD3705B00CFDA70 /* Main.storyboard */; };
+		AC38D61B1CD3705B00CFDA70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC38D61A1CD3705B00CFDA70 /* Assets.xcassets */; };
+		AC38D61E1CD3705B00CFDA70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC38D61C1CD3705B00CFDA70 /* LaunchScreen.storyboard */; };
+		AC38D6261CD3707C00CFDA70 /* MSYStrava.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D6251CD3707C00CFDA70 /* MSYStrava.swift */; };
+		AC38D63C1CD3709E00CFDA70 /* Dictionary+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D6281CD3709E00CFDA70 /* Dictionary+OAuthSwift.swift */; };
+		AC38D63D1CD3709E00CFDA70 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D6291CD3709E00CFDA70 /* HMAC.swift */; };
+		AC38D63E1CD3709E00CFDA70 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC38D62A1CD3709E00CFDA70 /* Info.plist */; };
+		AC38D63F1CD3709E00CFDA70 /* Int+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D62B1CD3709E00CFDA70 /* Int+OAuthSwift.swift */; };
+		AC38D6401CD3709E00CFDA70 /* NSData+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D62C1CD3709E00CFDA70 /* NSData+OAuthSwift.swift */; };
+		AC38D6411CD3709E00CFDA70 /* NSURL+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D62D1CD3709E00CFDA70 /* NSURL+OAuthSwift.swift */; };
+		AC38D6421CD3709E00CFDA70 /* OAuth1Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D62E1CD3709E00CFDA70 /* OAuth1Swift.swift */; };
+		AC38D6431CD3709E00CFDA70 /* OAuth2Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D62F1CD3709E00CFDA70 /* OAuth2Swift.swift */; };
+		AC38D6441CD3709E00CFDA70 /* OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D6311CD3709E00CFDA70 /* OAuthSwift.swift */; };
+		AC38D6451CD3709E00CFDA70 /* OAuthSwiftClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D6321CD3709E00CFDA70 /* OAuthSwiftClient.swift */; };
+		AC38D6461CD3709E00CFDA70 /* OAuthSwiftCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D6331CD3709E00CFDA70 /* OAuthSwiftCredential.swift */; };
+		AC38D6471CD3709E00CFDA70 /* OAuthSwiftHTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D6341CD3709E00CFDA70 /* OAuthSwiftHTTPRequest.swift */; };
+		AC38D6481CD3709E00CFDA70 /* OAuthSwiftMultipartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D6351CD3709E00CFDA70 /* OAuthSwiftMultipartData.swift */; };
+		AC38D6491CD3709E00CFDA70 /* OAuthSwiftURLHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D6361CD3709E00CFDA70 /* OAuthSwiftURLHandlerType.swift */; };
+		AC38D64A1CD3709E00CFDA70 /* OAuthWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D6371CD3709E00CFDA70 /* OAuthWebViewController.swift */; };
+		AC38D64B1CD3709E00CFDA70 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D6381CD3709E00CFDA70 /* SHA1.swift */; };
+		AC38D64C1CD3709E00CFDA70 /* String+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D6391CD3709E00CFDA70 /* String+OAuthSwift.swift */; };
+		AC38D64D1CD3709E00CFDA70 /* UIApplication+OAuthSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D63A1CD3709E00CFDA70 /* UIApplication+OAuthSwift.swift */; };
+		AC38D64E1CD3709E00CFDA70 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC38D63B1CD3709E00CFDA70 /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC38D6101CD3705A00CFDA70 /* StravaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StravaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC38D6131CD3705B00CFDA70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC38D6151CD3705B00CFDA70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC38D6181CD3705B00CFDA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC38D61A1CD3705B00CFDA70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC38D61D1CD3705B00CFDA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC38D61F1CD3705B00CFDA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC38D6251CD3707C00CFDA70 /* MSYStrava.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSYStrava.swift; sourceTree = "<group>"; };
+		AC38D6281CD3709E00CFDA70 /* Dictionary+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+OAuthSwift.swift"; sourceTree = "<group>"; };
+		AC38D6291CD3709E00CFDA70 /* HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
+		AC38D62A1CD3709E00CFDA70 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC38D62B1CD3709E00CFDA70 /* Int+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+OAuthSwift.swift"; sourceTree = "<group>"; };
+		AC38D62C1CD3709E00CFDA70 /* NSData+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+OAuthSwift.swift"; sourceTree = "<group>"; };
+		AC38D62D1CD3709E00CFDA70 /* NSURL+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURL+OAuthSwift.swift"; sourceTree = "<group>"; };
+		AC38D62E1CD3709E00CFDA70 /* OAuth1Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth1Swift.swift; sourceTree = "<group>"; };
+		AC38D62F1CD3709E00CFDA70 /* OAuth2Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2Swift.swift; sourceTree = "<group>"; };
+		AC38D6301CD3709E00CFDA70 /* OAuthSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthSwift.h; sourceTree = "<group>"; };
+		AC38D6311CD3709E00CFDA70 /* OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSwift.swift; sourceTree = "<group>"; };
+		AC38D6321CD3709E00CFDA70 /* OAuthSwiftClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSwiftClient.swift; sourceTree = "<group>"; };
+		AC38D6331CD3709E00CFDA70 /* OAuthSwiftCredential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSwiftCredential.swift; sourceTree = "<group>"; };
+		AC38D6341CD3709E00CFDA70 /* OAuthSwiftHTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSwiftHTTPRequest.swift; sourceTree = "<group>"; };
+		AC38D6351CD3709E00CFDA70 /* OAuthSwiftMultipartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSwiftMultipartData.swift; sourceTree = "<group>"; };
+		AC38D6361CD3709E00CFDA70 /* OAuthSwiftURLHandlerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSwiftURLHandlerType.swift; sourceTree = "<group>"; };
+		AC38D6371CD3709E00CFDA70 /* OAuthWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthWebViewController.swift; sourceTree = "<group>"; };
+		AC38D6381CD3709E00CFDA70 /* SHA1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA1.swift; sourceTree = "<group>"; };
+		AC38D6391CD3709E00CFDA70 /* String+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+OAuthSwift.swift"; sourceTree = "<group>"; };
+		AC38D63A1CD3709E00CFDA70 /* UIApplication+OAuthSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+OAuthSwift.swift"; sourceTree = "<group>"; };
+		AC38D63B1CD3709E00CFDA70 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC38D60D1CD3705A00CFDA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC38D6071CD3705A00CFDA70 = {
+			isa = PBXGroup;
+			children = (
+				AC38D6121CD3705A00CFDA70 /* StravaDemo */,
+				AC38D6111CD3705A00CFDA70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC38D6111CD3705A00CFDA70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC38D6101CD3705A00CFDA70 /* StravaDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC38D6121CD3705A00CFDA70 /* StravaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AC38D6271CD3709E00CFDA70 /* OAuthSwift */,
+				AC38D6131CD3705B00CFDA70 /* AppDelegate.swift */,
+				AC38D6151CD3705B00CFDA70 /* ViewController.swift */,
+				AC38D6171CD3705B00CFDA70 /* Main.storyboard */,
+				AC38D61A1CD3705B00CFDA70 /* Assets.xcassets */,
+				AC38D61C1CD3705B00CFDA70 /* LaunchScreen.storyboard */,
+				AC38D61F1CD3705B00CFDA70 /* Info.plist */,
+				AC38D6251CD3707C00CFDA70 /* MSYStrava.swift */,
+			);
+			path = StravaDemo;
+			sourceTree = "<group>";
+		};
+		AC38D6271CD3709E00CFDA70 /* OAuthSwift */ = {
+			isa = PBXGroup;
+			children = (
+				AC38D6281CD3709E00CFDA70 /* Dictionary+OAuthSwift.swift */,
+				AC38D6291CD3709E00CFDA70 /* HMAC.swift */,
+				AC38D62A1CD3709E00CFDA70 /* Info.plist */,
+				AC38D62B1CD3709E00CFDA70 /* Int+OAuthSwift.swift */,
+				AC38D62C1CD3709E00CFDA70 /* NSData+OAuthSwift.swift */,
+				AC38D62D1CD3709E00CFDA70 /* NSURL+OAuthSwift.swift */,
+				AC38D62E1CD3709E00CFDA70 /* OAuth1Swift.swift */,
+				AC38D62F1CD3709E00CFDA70 /* OAuth2Swift.swift */,
+				AC38D6301CD3709E00CFDA70 /* OAuthSwift.h */,
+				AC38D6311CD3709E00CFDA70 /* OAuthSwift.swift */,
+				AC38D6321CD3709E00CFDA70 /* OAuthSwiftClient.swift */,
+				AC38D6331CD3709E00CFDA70 /* OAuthSwiftCredential.swift */,
+				AC38D6341CD3709E00CFDA70 /* OAuthSwiftHTTPRequest.swift */,
+				AC38D6351CD3709E00CFDA70 /* OAuthSwiftMultipartData.swift */,
+				AC38D6361CD3709E00CFDA70 /* OAuthSwiftURLHandlerType.swift */,
+				AC38D6371CD3709E00CFDA70 /* OAuthWebViewController.swift */,
+				AC38D6381CD3709E00CFDA70 /* SHA1.swift */,
+				AC38D6391CD3709E00CFDA70 /* String+OAuthSwift.swift */,
+				AC38D63A1CD3709E00CFDA70 /* UIApplication+OAuthSwift.swift */,
+				AC38D63B1CD3709E00CFDA70 /* Utils.swift */,
+			);
+			path = OAuthSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC38D60F1CD3705A00CFDA70 /* StravaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC38D6221CD3705B00CFDA70 /* Build configuration list for PBXNativeTarget "StravaDemo" */;
+			buildPhases = (
+				AC38D60C1CD3705A00CFDA70 /* Sources */,
+				AC38D60D1CD3705A00CFDA70 /* Frameworks */,
+				AC38D60E1CD3705A00CFDA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StravaDemo;
+			productName = StravaDemo;
+			productReference = AC38D6101CD3705A00CFDA70 /* StravaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC38D6081CD3705A00CFDA70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "App Engineer";
+				TargetAttributes = {
+					AC38D60F1CD3705A00CFDA70 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = AC38D60B1CD3705A00CFDA70 /* Build configuration list for PBXProject "StravaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC38D6071CD3705A00CFDA70;
+			productRefGroup = AC38D6111CD3705A00CFDA70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC38D60F1CD3705A00CFDA70 /* StravaDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC38D60E1CD3705A00CFDA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC38D63E1CD3709E00CFDA70 /* Info.plist in Resources */,
+				AC38D61E1CD3705B00CFDA70 /* LaunchScreen.storyboard in Resources */,
+				AC38D61B1CD3705B00CFDA70 /* Assets.xcassets in Resources */,
+				AC38D6191CD3705B00CFDA70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC38D60C1CD3705A00CFDA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC38D6431CD3709E00CFDA70 /* OAuth2Swift.swift in Sources */,
+				AC38D6461CD3709E00CFDA70 /* OAuthSwiftCredential.swift in Sources */,
+				AC38D6441CD3709E00CFDA70 /* OAuthSwift.swift in Sources */,
+				AC38D6451CD3709E00CFDA70 /* OAuthSwiftClient.swift in Sources */,
+				AC38D6161CD3705B00CFDA70 /* ViewController.swift in Sources */,
+				AC38D63D1CD3709E00CFDA70 /* HMAC.swift in Sources */,
+				AC38D63C1CD3709E00CFDA70 /* Dictionary+OAuthSwift.swift in Sources */,
+				AC38D6471CD3709E00CFDA70 /* OAuthSwiftHTTPRequest.swift in Sources */,
+				AC38D64D1CD3709E00CFDA70 /* UIApplication+OAuthSwift.swift in Sources */,
+				AC38D6481CD3709E00CFDA70 /* OAuthSwiftMultipartData.swift in Sources */,
+				AC38D63F1CD3709E00CFDA70 /* Int+OAuthSwift.swift in Sources */,
+				AC38D64A1CD3709E00CFDA70 /* OAuthWebViewController.swift in Sources */,
+				AC38D6491CD3709E00CFDA70 /* OAuthSwiftURLHandlerType.swift in Sources */,
+				AC38D6261CD3707C00CFDA70 /* MSYStrava.swift in Sources */,
+				AC38D6401CD3709E00CFDA70 /* NSData+OAuthSwift.swift in Sources */,
+				AC38D64C1CD3709E00CFDA70 /* String+OAuthSwift.swift in Sources */,
+				AC38D64B1CD3709E00CFDA70 /* SHA1.swift in Sources */,
+				AC38D64E1CD3709E00CFDA70 /* Utils.swift in Sources */,
+				AC38D6411CD3709E00CFDA70 /* NSURL+OAuthSwift.swift in Sources */,
+				AC38D6421CD3709E00CFDA70 /* OAuth1Swift.swift in Sources */,
+				AC38D6141CD3705B00CFDA70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC38D6171CD3705B00CFDA70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC38D6181CD3705B00CFDA70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC38D61C1CD3705B00CFDA70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC38D61D1CD3705B00CFDA70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC38D6201CD3705B00CFDA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC38D6211CD3705B00CFDA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC38D6231CD3705B00CFDA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StravaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fivedots.com.StravaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC38D6241CD3705B00CFDA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StravaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fivedots.com.StravaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC38D60B1CD3705A00CFDA70 /* Build configuration list for PBXProject "StravaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC38D6201CD3705B00CFDA70 /* Debug */,
+				AC38D6211CD3705B00CFDA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC38D6221CD3705B00CFDA70 /* Build configuration list for PBXNativeTarget "StravaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC38D6231CD3705B00CFDA70 /* Debug */,
+				AC38D6241CD3705B00CFDA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC38D6081CD3705A00CFDA70 /* Project object */;
+}
